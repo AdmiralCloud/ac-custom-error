@@ -1,13 +1,15 @@
-# AC CustomError
+# AC-Custom-Error
 Extend the NodeJS error with an error code and additional information.
 
-[![Node.js CI](https://github.com/AdmiralCloud/ac-customError/actions/workflows/node.js.yml/badge.svg)](https://github.com/AdmiralCloud/ac-customError/actions/workflows/node.js.yml)
+[![Node.js CI](https://github.com/AdmiralCloud/ac-custom-error/actions/workflows/node.js.yml/badge.svg)](https://github.com/AdmiralCloud/ac-custom-error/actions/workflows/node.js.yml)
 
 # Usage
 ```
+const ACError = require('ac-custom-error')
+
 throw new ACError('myError', 123, { id: 333 })
 
-// 
+// OUTPUT 
 ACError: myError
     at STACK
   code: 123,

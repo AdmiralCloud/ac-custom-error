@@ -1,9 +1,9 @@
 {
-  "name": "ac-customError",
+  "name": "ac-custom-error",
   "version": "0.1.0",
   "description": "Custom NodeJS error with error code and additional info",
   "main": "index.js",
-  "repository": "https://github.com/AdmiralCloud/ac-customError",
+  "repository": "https://github.com/AdmiralCloud/ac-custom-error",
   "author": "Mark Poepping (www.admiralcloud.com)",
   "license": "MIT",
   "devDependencies": {
