@@ -1,0 +1,23 @@
+{
+  "name": "ac-customError",
+  "version": "0.0.1",
+  "description": "Custom NodeJS error with error code and additional info",
+  "main": "index.js",
+  "repository": "https://github.com/AdmiralCloud/ac-customError",
+  "author": "Mark Poepping (www.admiralcloud.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "ac-semantic-release": "^0.3.4",
+    "chai": "^4.3.7",
+    "eslint": "^8.32.0",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "coverage": "nyc yarn run test"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
