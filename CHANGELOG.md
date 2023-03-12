@@ -1,3 +1,15 @@
+<a name="1.0.0"></a>
+ 
+# [1.0.0](https://github.com/admiralcloud/ac-custom-error/compare/v0.2.1..v1.0.0) (2023-03-12 13:22:39)
+
+
+### Feature
+
+* **App:** Add ACErrorFromCode  | MP | [114a5fc289ac193d1374bcba9247917966b39f31](https://github.com/admiralcloud/ac-custom-error/commit/114a5fc289ac193d1374bcba9247917966b39f31)    
+You can now use a global library of error codes and throw the error based on a code.  
+Related issues: [undefined/undefined#master](undefined/browse/master)
+## BREAKING CHANGES
+* **App:** Two classes are exported in the function: ACError and ACErrorFromCode
 <a name="0.2.1"></a>
 
 ## [0.2.1](https://github.com/admiralcloud/ac-custom-error/compare/v0.2.0..v0.2.1) (2023-03-12 11:50:21)
