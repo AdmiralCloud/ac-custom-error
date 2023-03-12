@@ -1,3 +1,13 @@
+<a name="0.2.1"></a>
+
+## [0.2.1](https://github.com/admiralcloud/ac-custom-error/compare/v0.2.0..v0.2.1) (2023-03-12 11:50:21)
+
+
+### Bug Fix
+
+* **App:** Log to stack to console if options.stack is true | MP | [a14bba75b73a1759a72d248f145f2f3187762292](https://github.com/admiralcloud/ac-custom-error/commit/a14bba75b73a1759a72d248f145f2f3187762292)    
+Log to stack to console if options.stack is true  
+Related issues: [undefined/undefined#master](undefined/browse/master)
 <a name="0.2.0"></a>
  
 # [0.2.0](https://github.com/admiralcloud/ac-custom-error/compare/v0.1.0..v0.2.0) (2023-03-12 11:47:33)
