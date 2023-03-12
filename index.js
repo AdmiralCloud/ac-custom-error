@@ -16,6 +16,9 @@ class ACError extends Error {
     if (Object.keys(options).length) {
       this.options = options
     }
+    if (options?.stack) {
+      console.error(this.stack)
+    }
   }
 }
 
