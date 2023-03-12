@@ -22,5 +22,33 @@ class ACError extends Error {
   }
 }
 
+class ACErrorFromCode extends Error {
+  constructor(code, additionalInfo = {}) {
+    super(code)
 
-module.exports = ACError
+    // fetch the error message for errorCodes object (if available)
+    const error = global?.errorCodes[code]
+    
+    if (Error.captureStackTrace) {
+      Error.captureStackTrace(this, ACErrorFromCode)
+    }
+    // info
+    this.code = code || -1
+    this.errorMessage = error?.message || 'undefinedError'
+    this.message = this.errorMessage
+
+    if (error?.solution) {
+      this.solution = error.solution
+    }
+
+    if (Object.keys(additionalInfo).length) {
+      this.additionalInfo = additionalInfo
+    }
+    if (error?.stack) {
+      console.error(this.stack)
+    }
+  }
+}
+
+
+module.exports = { ACError, ACErrorFromCode }

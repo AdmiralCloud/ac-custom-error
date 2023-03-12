@@ -3,16 +3,50 @@ Extend the NodeJS error with an error code and additional information.
 
 [![Node.js CI](https://github.com/AdmiralCloud/ac-custom-error/actions/workflows/node.js.yml/badge.svg)](https://github.com/AdmiralCloud/ac-custom-error/actions/workflows/node.js.yml)
 
-# Usage
+# ACErrorFromCode
+This is the preferred way to use this class. You define a central library of error codes and export them to global. You can then throw the error based on that code.
+
+## Usage
+```
+const { ACErrorFromCode } = require('ac-custom-error)
+
+// define error library
+const errorCodes = {
+  12345: {
+    message: 'this is the error,
+    solution: 'Provide optional solution to solve the error',
+    stack: true // optional, if you want to log the stack
+  },
+  ...
+}
+global.errorCodes = errorCodes
+
+
+// call the error
+throw new ACErrorFromCode(12345)
+
+// result in console
+ACErrorFromCode: this is the error
+    at STACK
+  code: 12345,
+  errorMessage: 'this is the error',
+  solution: 'Provide optional solution to solve the error'
+}
+```
+
+
+# ACError
+If you do not want ot use a global library of error codes, you can use ACError to still show code and additionalInfo.
+## Usage
 Use it just like the built-in error:
 + first parameter is the actual error message as string
 + second parameter is the error code 
 + third parameter is an optional object of additional information (e.g. variables clarifying the error)
 + fouth parameter is an optional object of options that can help further processing of the error 
 
-## Example
+### Example
 ```
-const ACError = require('ac-custom-error')
+const { ACError } = require('ac-custom-error')
 
 throw new ACError('myError', 123, { id: 333 }, { stack: true })
 
