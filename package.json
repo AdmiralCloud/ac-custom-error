@@ -7,10 +7,10 @@
   "author": "Mark Poepping (www.admiralcloud.com)",
   "license": "MIT",
   "devDependencies": {
-    "ac-semantic-release": "^0.4.7",
+    "ac-semantic-release": "^0.4.8",
     "chai": "^4.5.0",
-    "eslint": "^9.34.0",
-    "mocha": "^11.7.1",
+    "eslint": "^9.35.0",
+    "mocha": "^11.7.2",
     "nyc": "^17.1.0"
   },
   "scripts": {
