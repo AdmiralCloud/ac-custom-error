@@ -18,7 +18,7 @@
     "coverage": "nyc yarn run test"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=20.0.0"
   },
   "resolutions": {
     "mocha/diff": "^8.0.3"
