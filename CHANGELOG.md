@@ -1,3 +1,19 @@
+ 
+# [2.0.0](https://github.com/admiralcloud/ac-custom-error/compare/v1.0.6..v2.0.0) (2026-02-03 09:23:24)
+
+
+### Bug Fix
+
+* **Misc:** Minimum version Node20 | MP | [f9975b7f3f99a0d0f4743387c8f4e477dfe3c339](https://github.com/admiralcloud/ac-custom-error/commit/f9975b7f3f99a0d0f4743387c8f4e477dfe3c339)    
+Minimum version Node20  
+Related issues:
+### Chores
+
+* **Misc:** Add permission to workflow | MP | [eaadc0bce650011a656be931a84cc7849d48fd5f](https://github.com/admiralcloud/ac-custom-error/commit/eaadc0bce650011a656be931a84cc7849d48fd5f)    
+Add permission to workflow  
+Related issues:
+## BREAKING CHANGES
+* **Misc:** Minimum version Node20
 
 ## [1.0.6](https://github.com/admiralcloud/ac-custom-error/compare/v1.0.5..v1.0.6) (2026-02-03 08:05:17)
 
