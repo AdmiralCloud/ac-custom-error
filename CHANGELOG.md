@@ -1,3 +1,12 @@
+
+## [2.0.1](https://github.com/admiralcloud/ac-custom-error/compare/v2.0.0..v2.0.1) (2026-02-24 16:09:02)
+
+
+### Bug Fix
+
+* **Misc:** Package updates | MP | [19dd6a387410e576eadbc4f9d089ebc9cc2949b2](https://github.com/admiralcloud/ac-custom-error/commit/19dd6a387410e576eadbc4f9d089ebc9cc2949b2)    
+Package updates incl ESLint 9 -> 10 and lint fixes  
+Related issues:
  
 # [2.0.0](https://github.com/admiralcloud/ac-custom-error/compare/v1.0.6..v2.0.0) (2026-02-03 09:23:24)
 
