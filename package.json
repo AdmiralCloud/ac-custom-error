@@ -1,6 +1,6 @@
 {
   "name": "ac-custom-error",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Custom NodeJS error with error code and additional info",
   "main": "index.js",
   "repository": "https://github.com/AdmiralCloud/ac-custom-error",

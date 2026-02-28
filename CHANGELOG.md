@@ -1,4 +1,13 @@
 
+## [2.0.2](https://github.com/admiralcloud/ac-custom-error/compare/v2.0.1..v2.0.2) (2026-02-28 12:02:22)
+
+
+### Bug Fix
+
+* **App:** Package updates | MP | [ce4a1aba33465a50be975f9737f2bf0f9182e3e7](https://github.com/admiralcloud/ac-custom-error/commit/ce4a1aba33465a50be975f9737f2bf0f9182e3e7)    
+Package updates  
+Related issues:
+
 ## [2.0.1](https://github.com/admiralcloud/ac-custom-error/compare/v2.0.0..v2.0.1) (2026-02-24 16:09:02)
 
 
