@@ -1,7 +1,7 @@
 # AC-Custom-Error
 Extend the NodeJS error with an error code and additional information.
 
-[![Node.js CI](https://github.com/AdmiralCloud/ac-custom-error/actions/workflows/node.js.yml/badge.svg)](https://github.com/AdmiralCloud/ac-custom-error/actions/workflows/node.js.yml)
+[![Node.js CI](https://github.com/AdmiralCloud/ac-custom-error/actions/workflows/node.js.yml/badge.svg)](https://github.com/AdmiralCloud/ac-custom-error/actions/workflows/node.js.yml) [![CodeQL](https://github.com/AdmiralCloud/ac-custom-error/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/AdmiralCloud/ac-custom-error/actions/workflows/github-code-scanning/codeql)
 
 # ACErrorFromCode
 This is the preferred way to use this class. You define a central library of error codes and export them to global. You can then throw the error based on that code.
