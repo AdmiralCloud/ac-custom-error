@@ -1,3 +1,21 @@
+## [2.0.3](https://github.com/admiralcloud/ac-custom-error/compare/v2.0.2..v2.0.3) (2026-04-03 17:01:30)
+
+
+### Bug Fix
+
+
+* **App:** Fixed chaining issue for global.errorCodes | MP | [53006bdee67ca3322f33d62fa36aee850e177a78](https://github.com/admiralcloud/ac-custom-error/commit/53006bdee67ca3322f33d62fa36aee850e177a78)    
+Optional chaining on errorCodes to prevent a TypeError when global.errorCodes is undefined.  
+Related issues:
+* **App:** Package updates | MP | [be06bb2eb36de0f3acd4b64e48caa01f1a92ba4a](https://github.com/admiralcloud/ac-custom-error/commit/be06bb2eb36de0f3acd4b64e48caa01f1a92ba4a)    
+Package updates  
+Related issues:
+### Chores
+
+
+* **App:** Updated Github actions | MP | [f87a97de35e910301f5d407ba794c15596088a1a](https://github.com/admiralcloud/ac-custom-error/commit/f87a97de35e910301f5d407ba794c15596088a1a)    
+Updated Github actions  
+Related issues:
 
 ## [2.0.2](https://github.com/admiralcloud/ac-custom-error/compare/v2.0.1..v2.0.2) (2026-02-28 12:02:22)
 
