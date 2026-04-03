@@ -27,7 +27,7 @@ class ACErrorFromCode extends Error {
     super(code)
 
     // fetch the error message for errorCodes object (if available)
-    const error = global?.errorCodes[code]
+    const error = global?.errorCodes?.[code]
     
     if (Error.captureStackTrace) {
       Error.captureStackTrace(this, ACErrorFromCode)
