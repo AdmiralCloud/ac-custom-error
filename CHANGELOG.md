@@ -1,3 +1,11 @@
+## [2.0.11](https://github.com/admiralcloud/ac-custom-error/compare/v2.0.10..v2.0.11) (2026-10-16 15:00:31)
+
+
+### Bug Fix
+
+
+* **App:** Package updates | MP | [e891e5df04fe8f9ab3974a7e762814d70f6a92dd](https://github.com/admiralcloud/ac-custom-error/commit/e891e5df04fe8f9ab3974a7e762814d70f6a92dd)    
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
 ## [2.0.10](https://github.com/admiralcloud/ac-custom-error/compare/v2.0.9..v2.0.10) (2026-08-23 10:46:04)
 
 
